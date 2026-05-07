@@ -1,4 +1,4 @@
-# JetSetGo – AI Travel Assistant (ViaNova)
+# JetSetGo – AI Travel Assistant 
 
 A Retrieval-Augmented Generation (RAG) powered travel chatbot that helps users find tour packages across popular destinations in northern Pakistan. Built with Flask, Pinecone, Groq (LLaMA 3.3), and a vanilla JS frontend.
 
@@ -53,7 +53,6 @@ A Retrieval-Augmented Generation (RAG) powered travel chatbot that helps users f
 - Python 3.9+
 - A Pinecone account (free tier works)
 - A Groq API key (free tier available at [console.groq.com](https://console.groq.com))
-- Optional: A Gemini API key (only needed for `new.py` testing)
 - Optional: A Grok/xAI API key (only needed for `eval.py`)
 
 ### 1. Clone the repository
