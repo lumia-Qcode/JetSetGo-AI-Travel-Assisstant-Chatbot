@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ViaNova Chat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h3>Chat History</h3>
+            <ul id="chat-history"></ul>
+        </div>
+
+        <!-- Main chat area -->
+        <div class="main-chat">
+            <header>
+                <h1>JetSetGo</h1>
+                <p class="hook">Your AI travel assistant</p>
+            </header>
+
+            <button class="new-chat-btn" id="new-chat-btn">New Chat</button>
+
+            <div id="chat-box" class="chat-box"></div>
+
+            <div class="chat-input">
+                <input type="text" id="user-msg" placeholder="Type your message..." />
+                <button id="send-btn">Send</button>
+                <button id="mic-btn">🎤</button>
+                <button id="pause-btn">⏸</button>
+                <button id="cancel-btn">⏹</button>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+</body>
+</html>
